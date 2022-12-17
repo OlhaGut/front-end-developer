@@ -90,3 +90,31 @@ p {
   right: 0;
   left: 0;
 }
+
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .img-none {
+    display: none;
+  }
+
+  .contact-link {
+    display: block;
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  p {
+    text-align: center;
+    margin: 0 15px;
+  }
+}
